@@ -28,7 +28,6 @@ export default function Nav() {
     <div className={classes.root}>
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange}>
-          <Tab className={classes.tabs} label="" component={Link} to="/" />
           <Tab className={classes.tabs} label="Home" component={Link} to="/" />
           <Tab label="Services" component={Link} to="/Services" />
           <Tab label="Book" component={Link} to="/Book" />
