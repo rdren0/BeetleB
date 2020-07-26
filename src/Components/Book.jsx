@@ -14,7 +14,6 @@ import TouchAppIcon from "@material-ui/icons/TouchApp";
 
 const useStyles = makeStyles({
   root: {
-    // width: "40vw",
     minWidth: 345,
     margin: "auto 0",
     display: "flex",
