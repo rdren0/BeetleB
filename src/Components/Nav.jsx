@@ -41,7 +41,7 @@ export default function Nav() {
         <Tabs value={value} onChange={handleChange}>
           <Avatar
             className={classes.logo}
-            alt="Remy Sharp"
+            alt="Beetle Barber Logo"
             src={Beetle}
             to="/"
           />
