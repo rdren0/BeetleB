@@ -14,7 +14,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: "95vw",
+    maxWidth: "40vw",
     minWidth: 345,
     margin: "15px",
   },
@@ -35,7 +35,7 @@ const Home = () => {
           <CardMedia
             component="img"
             alt="Picture of Barber"
-            style={{ height: "350" }}
+            // style={{ maxHeight: "350", maxWidth: "400px" }}
             image={Main}
             title="Picture of Barber"
           />
