@@ -28,6 +28,9 @@ const useStyles = makeStyles({
   icons: {
     height: "200px",
   },
+  iconsContainer: {
+    marginTop: "20px",
+  },
 });
 
 export default function Contact() {
@@ -62,31 +65,37 @@ export default function Contact() {
         </Card>
         <Hours />
       </div>
-      <Button
-        variant="link"
-        color="default"
-        className={classes.icons}
-        startIcon={<FacebookIcon style={{ height: "100px", width: "100px" }} />}
-        href="https://www.facebook.com/beetlebarber"
-      />
-      <Button
-        variant="link"
-        color="default"
-        className={classes.icons}
-        startIcon={
-          <InstagramIcon style={{ height: "100px", width: "100px" }} />
-        }
-        href="https://www.instagram.com/beetlebarber/"
-      />
-      <Button
-        variant="link"
-        color="default"
-        className={classes.icons}
-        startIcon={
-          <SentimentSatisfiedIcon style={{ height: "100px", width: "100px" }} />
-        }
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-      />
+      <div className={classes.iconsContainer}>
+        <Button
+          variant="link"
+          color="default"
+          className={classes.icons}
+          startIcon={
+            <FacebookIcon style={{ height: "100px", width: "100px" }} />
+          }
+          href="https://www.facebook.com/beetlebarber"
+        />
+        <Button
+          variant="link"
+          color="default"
+          className={classes.icons}
+          startIcon={
+            <InstagramIcon style={{ height: "100px", width: "100px" }} />
+          }
+          href="https://www.instagram.com/beetlebarber/"
+        />
+        <Button
+          variant="link"
+          color="default"
+          className={classes.icons}
+          startIcon={
+            <SentimentSatisfiedIcon
+              style={{ height: "100px", width: "100px" }}
+            />
+          }
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        />
+      </div>
     </div>
   );
 }
