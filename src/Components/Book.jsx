@@ -83,7 +83,7 @@ export default function Book() {
                     style={{ height: "100px", width: "100px" }}
                   />
                 }
-                href="sms:19702352073;?&body=Hello%20Shelsey%20&#1f60e;%20I%20would%20like%20to%20book%20an%20appointment%20for%20-%20"
+                href="sms:19702352073;?&body=Hello%20Shelsey!%20I%20would%20like%20to%20book%20an%20appointment%20for%20-%20"
               />
             </CardContent>
             <CardContent>
