@@ -10,19 +10,9 @@ import Tab from "@material-ui/core/Tab";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
-    "& > *": {
-      margin: theme.spacing(1),
-    },
   },
   tabs: {
     ":&hover": { background: "#2C3E50" },
-  },
-  logo: {
-    backgroundColor: "#f3f3f3",
-    height: "20px",
-    width: "30px",
-    padding: "2px",
-    margin: "8px 5px ",
   },
 }));
 
