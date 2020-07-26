@@ -35,14 +35,14 @@ export default function Services() {
           <CardActionArea>
             <CardMedia
               component="img"
-              alt="Hair Cuts"
+              alt="Haircuts"
               height="240"
               image={Cut}
-              title="Hair Cuts"
+              title="Haircuts"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Hair cuts
+                Haircuts
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                 Standard, buzz, skin, razor fades and designs
