@@ -11,12 +11,9 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: "40vw",
     minWidth: 345,
     margin: "15px",
-  },
-  image: {
-    height: 400,
   },
   container: {
     display: "flex",
@@ -52,7 +49,6 @@ export default function Book() {
           <CardMedia
             component="img"
             alt="Hair Cuts"
-            height="240"
             image={Call}
             title="Hair Cuts"
             className={classes.image}

@@ -35,7 +35,6 @@ const Home = () => {
           <CardMedia
             component="img"
             alt="Picture of Barber"
-            // style={{ maxHeight: "350", maxWidth: "400px" }}
             image={Main}
             title="Picture of Barber"
           />
