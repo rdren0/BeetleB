@@ -40,7 +40,8 @@ const Home = () => {
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               I can’t seem to wipe the smile off my face, I have some BIG news
-              for my guys out there! Okay here we go...
+              for my guys out there! <br />
+              Okay here we go...
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               I’m excited to let you know my passion has pushed me into going
