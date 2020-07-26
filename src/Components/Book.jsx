@@ -6,27 +6,18 @@ const useStyles = makeStyles({
   container: {},
   image: {
     height: "100vh",
-    backgroundSize: "cover",
+    width: "60%",
+    margin: "0 auto",
+    backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
     backgroundImage: `url(${Call})`,
   },
   phone: {
     width: "80vw",
-    position: "absolute",
-    marginLeft: "auto",
-    marginRight: "auto",
-    marginTop: "15vh",
-    left: 0,
-    right: 0,
+    fontSize: "1em",
+    marginLeft: "10vw",
+    marginTop: "2vh",
     textAlign: "center",
-  },
-  a: {
-    fontSize: "45px",
-    ":&before": {
-      content: "B0E",
-      display: "block",
-      marginRight: "0.5em",
-    },
   },
 });
 
@@ -44,6 +35,8 @@ export default function Book() {
           (970)235-2073
         </a>
       </div>
+      <br />
+      <br />
 
       <div className={classes.image} />
     </div>

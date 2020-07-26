@@ -6,9 +6,11 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles({
   container: {
     height: "100vh",
-    backgroundSize: "cover",
+    margin: "7vw",
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
     backgroundImage:
-      'url("https://images.pexels.com/photos/3992874/pexels-photo-3992874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")',
+      'url("https://images.unsplash.com/photo-1511407405731-fee72178ba09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80")',
   },
   logo: {
     zIndex: 3,
