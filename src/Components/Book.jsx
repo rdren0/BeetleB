@@ -2,15 +2,22 @@ import React from "react";
 import Call from "../Images/bluebug.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 
+import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardContent from "@material-ui/core/CardContent";
+import CardMedia from "@material-ui/core/CardMedia";
+import Typography from "@material-ui/core/Typography";
+
 const useStyles = makeStyles({
-  container: {},
-  image: {
-    height: "100vh",
-    width: "60%",
-    margin: "0 auto",
-    backgroundSize: "contain",
-    backgroundRepeat: "no-repeat",
-    backgroundImage: `url(${Call})`,
+  root: {
+    maxWidth: 345,
+    minWidth: 345,
+    margin: "15px",
+  },
+  container: {
+    display: "flex",
+    flexFlow: "row wrap",
+    justifyContent: "center",
   },
   phone: {
     width: "80vw",
@@ -26,19 +33,27 @@ export default function Book() {
 
   return (
     <div className={classes.container}>
-      <div className={classes.phone}>
-        <h1>
-          Text or Call <br /> to book an appointment
-        </h1>
-        <br />
-        <a style={{ fontSize: "25px" }} href="tel:9702352073">
-          (970)235-2073
-        </a>
-      </div>
-      <br />
-      <br />
-
-      <div className={classes.image} />
+      <Card className={classes.root}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            alt="Hair Cuts"
+            height="240"
+            image={Call}
+            title="Hair Cuts"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              Text or Call to book an appointment
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              <a style={{ fontSize: "25px" }} href="tel:9702352073">
+                (970)235-2073
+              </a>
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
     </div>
   );
 }
