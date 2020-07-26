@@ -1,6 +1,8 @@
 import React from "react";
-import Call from "../Images/bluebug.jpg";
+import Call from "../Images/ShelsSide.jpg";
 import { makeStyles } from "@material-ui/core/styles";
+
+import Paper from "@material-ui/core/Paper";
 
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -13,6 +15,9 @@ const useStyles = makeStyles({
     maxWidth: 345,
     minWidth: 345,
     margin: "15px",
+  },
+  image: {
+    height: 400,
   },
   container: {
     display: "flex",
@@ -33,7 +38,7 @@ export default function Book() {
 
   return (
     <div className={classes.container}>
-      <Card className={classes.root}>
+      <Paper className={classes.root}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -41,6 +46,7 @@ export default function Book() {
             height="240"
             image={Call}
             title="Hair Cuts"
+            className={classes.image}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
@@ -53,7 +59,7 @@ export default function Book() {
             </Typography>
           </CardContent>
         </CardActionArea>
-      </Card>
+      </Paper>
     </div>
   );
 }
