@@ -2,8 +2,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 import "../App.css";
-import Beetle from "../Images/BeetleBarber.svg";
-import Avatar from "@material-ui/core/Avatar";
 
 import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
@@ -39,13 +37,6 @@ export default function Nav() {
     <div className={classes.root}>
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange}>
-          <Avatar
-            className={classes.logo}
-            alt="Beetle Barber Logo"
-            src={Beetle}
-            to="/"
-          />
-
           <Tab label="Home" component={Link} to="/" />
           <Tab label="Services" component={Link} to="/Services" />
           <Tab label="Book" component={Link} to="/Book" />

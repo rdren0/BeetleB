@@ -1,5 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
+import { makeStyles } from "@material-ui/core/styles";
 
 import Home from "./Components/Home";
 import Services from "./Components/Services";
@@ -7,6 +8,8 @@ import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact";
 import Book from "./Components/Book";
 import Nav from "./Components/Nav";
+
+import Beetle from "./Images/BeetleBarber.svg";
 
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
@@ -19,10 +22,24 @@ const theme = createMuiTheme({
   },
 });
 
+const useStyles = makeStyles((theme) => ({
+  logo: {
+    // padding: "2px",
+    height: "8vh",
+    width: "15vw",
+    margin: "-5px",
+  },
+}));
+
 function App() {
+  const classes = useStyles();
+
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
+        <a href="/">
+          <img className={classes.logo} alt="Beetle Barber Logo" src={Beetle} />
+        </a>
         <Nav />
         <div className="main">
           <Route exact path="/" component={Home} />
