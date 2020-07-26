@@ -47,6 +47,7 @@ function App() {
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/Book" component={Book} />
         </div>
+        {/* <footer style={{ backgroundColor: "#212121", height: "40px" }} /> */}
       </div>
     </ThemeProvider>
   );
