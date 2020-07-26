@@ -1,12 +1,40 @@
 import React from "react";
-import comingSoon from "./ComingSoon.png";
+import { Route } from "react-router-dom";
+
+import Home from "./Components/Home";
+import Services from "./Components/Services";
+import Portfolio from "./Components/Portfolio";
+import Contact from "./Components/Contact";
+import Book from "./Components/Book";
+import Nav from "./Components/Nav";
+
+import { createMuiTheme } from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/styles";
+import { purple } from "@material-ui/core/colors";
+import Button from "@material-ui/core/Button";
 import "./App.css";
+
+const theme = createMuiTheme({
+  palette: {
+    primary: { main: "#212121" },
+    secondary: { main: "#263238" },
+  },
+});
 
 function App() {
   return (
-    <div className="main">
-      <img src={comingSoon} className="coming-Soon" alt="Coming Soon!" />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Nav />
+        <div className="main">
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Services" component={Services} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/Book" component={Book} />
+        </div>
+      </div>
+    </ThemeProvider>
   );
 }
 
