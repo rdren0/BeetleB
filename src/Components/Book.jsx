@@ -39,14 +39,6 @@ export default function Book() {
     <div className={classes.container}>
       <Paper className={classes.root}>
         <CardActionArea>
-          <CardMedia
-            component="img"
-            alt="Hair Cuts"
-            height="240"
-            image={Call}
-            title="Hair Cuts"
-            className={classes.image}
-          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Text or Call to book an appointment
@@ -57,6 +49,14 @@ export default function Book() {
               </a>
             </Typography>
           </CardContent>
+          <CardMedia
+            component="img"
+            alt="Hair Cuts"
+            height="240"
+            image={Call}
+            title="Hair Cuts"
+            className={classes.image}
+          />
         </CardActionArea>
       </Paper>
     </div>
