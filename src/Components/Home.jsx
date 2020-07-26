@@ -3,6 +3,8 @@ import React from "react";
 import Card from "@material-ui/core/Card";
 import Main from "../Images/ShelsSide.jpg";
 
+import Paper from "@material-ui/core/Paper";
+
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
@@ -12,7 +14,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 425,
+    maxWidth: "95vw",
     minWidth: 345,
     margin: "15px",
   },
@@ -28,14 +30,14 @@ const Home = () => {
 
   return (
     <div className={classes.container}>
-      <Card className={classes.root}>
+      <Paper className={classes.root}>
         <CardActionArea>
           <CardMedia
             component="img"
-            alt="Hair Cuts"
-            height="240"
+            alt="Picture of Barber"
+            style={{ height: "350" }}
             image={Main}
-            title="Hair Cuts"
+            title="Picture of Barber"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
@@ -65,7 +67,7 @@ const Home = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
-      </Card>
+      </Paper>
     </div>
   );
 };
