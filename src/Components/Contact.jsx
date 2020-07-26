@@ -4,6 +4,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import Button from "@material-ui/core/Button";
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
 import Location from "../Images/location.jpg";
+import Hours from "./Hours";
 
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -33,18 +34,24 @@ const useStyles = makeStyles({
 export default function Contact() {
   const classes = useStyles();
 
+
   return (
     <div>
+      <div style={{ width: "100%" }}></div>
       <div className={classes.container}>
         <Card className={classes.root}>
           <CardActionArea>
-            <CardMedia
-              component="img"
-              alt="Location"
-              height="240"
-              image={Location}
-              title="Location"
-            />
+            <iframe
+              style={{
+                width: "300px",
+                height: "300px",
+                frameborder: "0",
+                scrolling: "no",
+                marginheight: "0",
+                marginwidth: "0",
+              }}
+              src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=1461%20E%20Eisenhower%20Blvd,%20Loveland,%20CO%2080537+(Located%20at)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
             <CardContent>
               <Typography variant="body1" color="textSecondary" component="p">
                 <a href="https://goo.gl/maps/tCXUsJVuJ9zb85tNA">
@@ -54,6 +61,7 @@ export default function Contact() {
             </CardContent>
           </CardActionArea>
         </Card>
+        <Hours />
       </div>
       <Button
         variant="link"

@@ -1,6 +1,8 @@
 import React from "react";
 
 import Card from "@material-ui/core/Card";
+import Main from "../Images/ShelsSide.jpg";
+
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
@@ -32,9 +34,7 @@ const Home = () => {
             component="img"
             alt="Hair Cuts"
             height="240"
-            image={
-              "https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/116255602_2668307716723519_9017420999240329275_n.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=uvx6eEStzvMAX9hVGAN&_nc_ht=scontent.fapa1-2.fna&oh=39158e4b4ba5f2ac1e6c15af87ec7b9b&oe=5F41A6BB"
-            }
+            image={Main}
             title="Hair Cuts"
           />
           <CardContent>
