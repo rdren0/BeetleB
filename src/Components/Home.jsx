@@ -1,6 +1,5 @@
 import React from "react";
 
-import Card from "@material-ui/core/Card";
 import Main from "../Images/ShelsSide.jpg";
 
 import Paper from "@material-ui/core/Paper";
