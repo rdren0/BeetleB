@@ -8,10 +8,11 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
+import Hidden from "@material-ui/core/Hidden";
 
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: "40vw",
     minWidth: 345,
@@ -22,13 +23,35 @@ const useStyles = makeStyles({
     flexFlow: "row wrap",
     justifyContent: "center",
   },
-});
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: "center",
+    color: theme.palette.text.secondary,
+    flex: "1 0 auto",
+    margin: theme.spacing(1),
+  },
+}));
 
 const Home = () => {
   const classes = useStyles();
 
   return (
     <div className={classes.container}>
+      <Hidden xsDown>
+        <Paper className={classes.paper}>xsDown</Paper>
+      </Hidden>
+      <Hidden smDown>
+        <Paper className={classes.paper}>smDown</Paper>
+      </Hidden>
+      <Hidden mdDown>
+        <Paper className={classes.paper}>mdDown</Paper>
+      </Hidden>
+      <Hidden lgDown>
+        <Paper className={classes.paper}>lgDown</Paper>
+      </Hidden>
+      <Hidden xlDown>
+        <Paper className={classes.paper}>xlDown</Paper>
+      </Hidden>
       <Paper className={classes.root}>
         <CardActionArea>
           <CardMedia
