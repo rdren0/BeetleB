@@ -83,7 +83,7 @@ export default function Book() {
                     style={{ height: "100px", width: "100px" }}
                   />
                 }
-                href="sms://+19702352073"
+                href="sms://+19702352073&body=Testing Stuff"
               />
             </CardContent>
             <CardContent>
