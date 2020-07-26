@@ -1,5 +1,5 @@
 import React from "react";
-import Shave from "../services.jpg";
+import Shave from "../Images/services.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({

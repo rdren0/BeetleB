@@ -28,11 +28,11 @@ export default function Nav() {
     <div className={classes.root}>
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange}>
-          <Tab className={classes.tabs} label="Home" component={Link} to="/" />
-          <Tab label="Services" component={Link} to="/Services" />
+          <Tab label="Home" component={Link} to="/" />
           <Tab label="Book" component={Link} to="/Book" />
+          <Tab label="Services" component={Link} to="/Services" />
           <Tab label="Contact" component={Link} to="/Contact" />
-          <Tab label="Portfolio" component={Link} to="/Portfolio" />
+          {/* <Tab label="Portfolio" component={Link} to="/Portfolio" /> */}
         </Tabs>
       </AppBar>
     </div>

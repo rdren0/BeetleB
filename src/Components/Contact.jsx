@@ -21,7 +21,7 @@ export default function Contact() {
         color="default"
         className={classes.icons}
         startIcon={<FacebookIcon style={{ height: "100px", width: "100px" }} />}
-        href="https://www.facebook.com/shelsey.sybrandts"
+        href="https://www.facebook.com/beetlebarber"
       />
       <Button
         variant="link"
@@ -30,7 +30,7 @@ export default function Contact() {
         startIcon={
           <InstagramIcon style={{ height: "100px", width: "100px" }} />
         }
-        href="https://www.instagram.com/p/B6i8PsOlAHk/"
+        href="https://www.instagram.com/beetlebarber/"
       />
     </div>
   );

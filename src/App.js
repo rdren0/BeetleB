@@ -15,7 +15,7 @@ import "./App.css";
 const theme = createMuiTheme({
   palette: {
     primary: { main: "#212121" },
-    secondary: { main: "#263238" },
+    secondary: { main: "#F3F3F3" },
   },
 });
 
