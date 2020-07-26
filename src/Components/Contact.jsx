@@ -2,7 +2,7 @@ import React from "react";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import Button from "@material-ui/core/Button";
-import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
+import SentimentSatisfiedIcon from "@material-ui/icons/SentimentSatisfied";
 import Hours from "./Hours";
 
 import Card from "@material-ui/core/Card";
@@ -82,7 +82,7 @@ export default function Contact() {
         color="default"
         className={classes.icons}
         startIcon={
-          <AttachMoneyIcon style={{ height: "100px", width: "100px" }} />
+          <SentimentSatisfiedIcon style={{ height: "100px", width: "100px" }} />
         }
         href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       />
