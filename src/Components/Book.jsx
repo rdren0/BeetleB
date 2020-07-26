@@ -10,11 +10,18 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
+import PhoneIcon from "@material-ui/icons/Phone";
+import CallIcon from "@material-ui/icons/Call";
+import TouchAppIcon from "@material-ui/icons/TouchApp";
+
 const useStyles = makeStyles({
   root: {
-    maxWidth: "40vw",
+    // width: "40vw",
     minWidth: 345,
-    margin: "15px",
+    margin: "auto 0",
+    display: "flex",
+    flexFlow: "row wrap",
+    justifyContent: "space-around",
   },
   container: {
     display: "flex",
@@ -48,39 +55,46 @@ export default function Book() {
 
   return (
     <div className={classes.container}>
-      <Card className={classes.root}>
-        <CardActionArea>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Make an Appointment Online:
-            </Typography>
-
-            <Button variant="link" color="default">
-              <a
-                className={classes.button}
-                target="_top"
+      <Card>
+        <CardContent>
+          <Card className={classes.root}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Book Online:
+              </Typography>
+              <Button
+                variant="link"
+                color="default"
+                className={classes.icons}
+                startIcon={
+                  <TouchAppIcon style={{ height: "100px", width: "100px" }} />
+                }
                 href="https://square.site/book/AEAPGYZE9KXJG/shelsey-sybrandts-loveland-co"
-              >
-                Book Now
-              </a>
-            </Button>
-            <Typography gutterBottom variant="h5" component="h2">
-              Text or Call:
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              <a style={{ fontSize: "25px" }} href="tel:9702352073">
-                (970)235-2073
-              </a>
-            </Typography>
-          </CardContent>
+              />
+            </CardContent>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Text or Call:
+              </Typography>
+              <Button
+                variant="link"
+                color="default"
+                className={classes.icons}
+                startIcon={
+                  <CallIcon style={{ height: "100px", width: "100px" }} />
+                }
+                href="tel:+19709804130"
+              />
+            </CardContent>
+          </Card>
           <CardMedia
             component="img"
-            alt="Hair Cuts"
+            alt="Blue VW Beetle"
             image={Call}
-            title="Hair Cuts"
+            title="Blue VW Beetle"
             className={classes.image}
           />
-        </CardActionArea>
+        </CardContent>
       </Card>
     </div>
   );
