@@ -26,7 +26,7 @@ export default function Nav() {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Tabs value={value} onChange={handleChange}>
+        <Tabs value={value} onChange={handleChange} centered>
           <Tab label="Home" component={Link} to="/" />
           <Tab label="Services" component={Link} to="/Services" />
           <Tab label="Book" component={Link} to="/Book" />
