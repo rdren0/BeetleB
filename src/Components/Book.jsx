@@ -11,6 +11,7 @@ import Typography from "@material-ui/core/Typography";
 
 import CallIcon from "@material-ui/icons/Call";
 import TouchAppIcon from "@material-ui/icons/TouchApp";
+import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 
 const useStyles = makeStyles({
   root: {
@@ -71,7 +72,23 @@ export default function Book() {
             </CardContent>
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Text or Call:
+                Text:
+              </Typography>
+              <Button
+                variant="link"
+                color="default"
+                className={classes.icons}
+                startIcon={
+                  <PhoneAndroidIcon
+                    style={{ height: "100px", width: "100px" }}
+                  />
+                }
+                href="sms://+19702352073"
+              />
+            </CardContent>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Call:
               </Typography>
               <Button
                 variant="link"
