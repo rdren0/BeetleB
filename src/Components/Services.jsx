@@ -14,6 +14,7 @@ import Shampoo from "../Images/shampoo.jpg";
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    minWidth: 345,
     margin: "5px",
   },
   container: {
