@@ -10,7 +10,6 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
-import PhoneIcon from "@material-ui/icons/Phone";
 import CallIcon from "@material-ui/icons/Call";
 import TouchAppIcon from "@material-ui/icons/TouchApp";
 

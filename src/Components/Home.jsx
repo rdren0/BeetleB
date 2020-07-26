@@ -37,7 +37,7 @@ const Home = () => {
 
   return (
     <div className={classes.container}>
-      <Hidden xsDown>
+      {/* <Hidden xsDown>
         <Paper className={classes.paper}>xsDown</Paper>
       </Hidden>
       <Hidden smDown>
@@ -51,7 +51,7 @@ const Home = () => {
       </Hidden>
       <Hidden xlDown>
         <Paper className={classes.paper}>xlDown</Paper>
-      </Hidden>
+      </Hidden> */}
       <Paper className={classes.root}>
         <CardActionArea>
           <CardMedia
