@@ -2,6 +2,7 @@ import React from "react";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import Button from "@material-ui/core/Button";
+import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
 
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -31,6 +32,15 @@ export default function Contact() {
           <InstagramIcon style={{ height: "100px", width: "100px" }} />
         }
         href="https://www.instagram.com/beetlebarber/"
+      />
+      <Button
+        variant="link"
+        color="default"
+        className={classes.icons}
+        startIcon={
+          <AttachMoneyIcon style={{ height: "100px", width: "100px" }} />
+        }
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       />
     </div>
   );
