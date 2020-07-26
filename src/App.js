@@ -42,10 +42,10 @@ function App() {
         <Nav />
         <div className="main">
           <Route exact path="/" component={Home} />
-          <Route exact path="/Services" component={Services} />
-          <Route exact path="/Portfolio" component={Portfolio} />
-          <Route exact path="/Contact" component={Contact} />
-          <Route exact path="/Book" component={Book} />
+          <Route path="/Services" component={Services} />
+          <Route path="/Portfolio" component={Portfolio} />
+          <Route path="/Contact" component={Contact} />
+          <Route path="/Book" component={Book} />
         </div>
         {/* <footer style={{ backgroundColor: "#212121", height: "40px" }} /> */}
       </div>
