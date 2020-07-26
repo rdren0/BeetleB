@@ -39,7 +39,7 @@ export default function PinnedSubheaderList() {
       <li className={classes.listSection}>
         <ul className={classes.ul}>
           <h5>
-            Due to COVID-19 guidelines, visits are by appointments only at this
+            Due to COVID-19 guidelines, visits are by appointment only at this
             time.
           </h5>
           <ListSubheader>Hours of Operation:</ListSubheader>
