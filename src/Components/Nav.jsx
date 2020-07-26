@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) => ({
   },
   logo: {
     backgroundColor: "#f3f3f3",
-    height: "25px",
-    width: "35px",
+    height: "20px",
+    width: "30px",
     padding: "2px",
     margin: "8px 5px ",
   },
