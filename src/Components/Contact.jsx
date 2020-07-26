@@ -23,6 +23,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexFlow: "row wrap",
     justifyContent: "center",
+    marginTop: "15px",
   },
   icons: {
     height: "200px",
@@ -34,7 +35,7 @@ export default function Contact() {
 
   return (
     <div>
-      <div style={{ width: "100%" }}></div>
+      {/* <div style={{ width: "100%" }}></div> */}
       <div className={classes.container}>
         <Card className={classes.root}>
           <CardActionArea>
