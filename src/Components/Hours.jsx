@@ -38,7 +38,11 @@ export default function PinnedSubheaderList() {
     <List className={classes.root} subheader={<li />}>
       <li className={classes.listSection}>
         <ul className={classes.ul}>
-          <ListSubheader>{`Hours of Operation:`}</ListSubheader>
+          <h5>
+            Due to COVID-19 guidelines, visits are by appointments only at this
+            time.
+          </h5>
+          <ListSubheader>Hours of Operation:</ListSubheader>
           {hours.map((item) => (
             <ListItem>
               <ListItemText primary={item} />
