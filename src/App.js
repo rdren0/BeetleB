@@ -10,8 +10,6 @@ import Nav from "./Components/Nav";
 
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
-import { purple } from "@material-ui/core/colors";
-import Button from "@material-ui/core/Button";
 import "./App.css";
 
 const theme = createMuiTheme({
