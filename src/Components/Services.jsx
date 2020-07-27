@@ -17,12 +17,13 @@ const useStyles = makeStyles({
     maxWidth: 345,
     minWidth: 345,
     margin: "5px",
+    height: "350px",
   },
   container: {
     display: "flex",
     flexFlow: "row wrap",
     justifyContent: "center",
-    padding: "20px",
+    padding: "7vh",
   },
 });
 
@@ -30,7 +31,7 @@ export default function Services() {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className={classes.what}>
       <h1>Services:</h1>
       <div className={classes.container}>
         <Card className={classes.root}>
