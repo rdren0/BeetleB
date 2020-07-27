@@ -12,6 +12,7 @@ import Typography from "@material-ui/core/Typography";
 import CallIcon from "@material-ui/icons/Call";
 import TouchAppIcon from "@material-ui/icons/TouchApp";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
+import Footer from "./Footer";
 
 const useStyles = makeStyles({
   root: {
@@ -107,6 +108,7 @@ export default function Book() {
           />
         </CardContent>
       </Card>
+      <Footer />
     </div>
   );
 }

@@ -11,6 +11,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 
 import { makeStyles } from "@material-ui/core/styles";
+import Footer from "./Footer";
 
 const useStyles = makeStyles({
   root: {
@@ -92,6 +93,7 @@ export default function Contact() {
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         />
       </div>
+      <Footer />
     </div>
   );
 }

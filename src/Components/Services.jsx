@@ -10,6 +10,7 @@ import Typography from "@material-ui/core/Typography";
 import Cut from "../Images/cut.jpg";
 import Razor from "../Images/services.jpg";
 import Shampoo from "../Images/shampoo.jpg";
+import Footer from "./Footer";
 
 const useStyles = makeStyles({
   root: {
@@ -90,6 +91,7 @@ export default function Services() {
           </CardActionArea>
         </Card>
       </div>
+      <Footer />
     </div>
   );
 }

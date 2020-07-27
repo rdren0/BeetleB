@@ -4,7 +4,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import Home from "./Components/Home";
 import Services from "./Components/Services";
-import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact";
 import Book from "./Components/Book";
 import Nav from "./Components/Nav";
@@ -43,7 +42,6 @@ function App() {
         <div className="main">
           <Route exact path="/" component={Home} />
           <Route path="/Services" component={Services} />
-          <Route path="/Portfolio" component={Portfolio} />
           <Route path="/Contact" component={Contact} />
           <Route path="/Book" component={Book} />
         </div>

@@ -10,6 +10,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
 import { makeStyles } from "@material-ui/core/styles";
+import Footer from "./Footer";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -74,6 +75,7 @@ const Home = () => {
           </CardContent>
         </CardActionArea>
       </Paper>
+      <Footer />
     </div>
   );
 };
