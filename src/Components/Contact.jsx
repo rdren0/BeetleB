@@ -38,7 +38,6 @@ export default function Contact() {
 
   return (
     <div>
-      {/* <div style={{ width: "100%" }}></div> */}
       <div className={classes.container}>
         <Card className={classes.root}>
           <CardActionArea>
@@ -53,7 +52,7 @@ export default function Contact() {
                 marginwidth: "0",
               }}
               src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=1461%20E%20Eisenhower%20Blvd,%20Loveland,%20CO%2080537+(Located%20at)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            ></iframe>
+            />
             <CardContent>
               <Typography variant="body1" color="textSecondary" component="p">
                 <a href="https://goo.gl/maps/tCXUsJVuJ9zb85tNA">
@@ -67,7 +66,6 @@ export default function Contact() {
       </div>
       <div className={classes.iconsContainer}>
         <Button
-          variant="link"
           color="default"
           className={classes.icons}
           startIcon={
@@ -76,7 +74,6 @@ export default function Contact() {
           href="https://www.facebook.com/beetlebarber"
         />
         <Button
-          variant="link"
           color="default"
           className={classes.icons}
           startIcon={
@@ -85,7 +82,6 @@ export default function Contact() {
           href="https://www.instagram.com/beetlebarber/"
         />
         <Button
-          variant="link"
           color="default"
           className={classes.icons}
           startIcon={
