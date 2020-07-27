@@ -47,7 +47,6 @@ function App() {
           <Route path="/Contact" component={Contact} />
           <Route path="/Book" component={Book} />
         </div>
-        {/* <footer style={{ backgroundColor: "#212121", height: "40px" }} /> */}
       </div>
     </ThemeProvider>
   );

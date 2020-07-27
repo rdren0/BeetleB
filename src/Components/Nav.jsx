@@ -18,7 +18,11 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Nav() {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(
+    ["/", "/Services", "/Book", "/Contact"].findIndex(
+      (path) => window.location.pathname === path
+    )
+  );
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

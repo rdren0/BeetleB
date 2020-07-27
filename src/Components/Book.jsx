@@ -61,7 +61,6 @@ export default function Book() {
                 Book Online:
               </Typography>
               <Button
-                variant="link"
                 color="default"
                 className={classes.icons}
                 startIcon={
@@ -75,7 +74,6 @@ export default function Book() {
                 Text:
               </Typography>
               <Button
-                variant="link"
                 color="default"
                 className={classes.icons}
                 startIcon={
@@ -91,7 +89,6 @@ export default function Book() {
                 Call:
               </Typography>
               <Button
-                variant="link"
                 color="default"
                 className={classes.icons}
                 startIcon={
