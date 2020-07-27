@@ -22,6 +22,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexFlow: "row wrap",
     justifyContent: "center",
+    padding: "20px",
   },
 });
 
