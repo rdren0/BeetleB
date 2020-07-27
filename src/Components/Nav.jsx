@@ -35,7 +35,6 @@ export default function Nav() {
           <Tab label="Services" component={Link} to="/Services" />
           <Tab label="Book" component={Link} to="/Book" />
           <Tab label="Contact" component={Link} to="/Contact" />
-          {/* <Tab label="Portfolio" component={Link} to="/Portfolio" /> */}
         </Tabs>
       </AppBar>
     </div>
