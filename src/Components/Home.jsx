@@ -47,30 +47,43 @@ const Home = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              I can’t seem to wipe the smile off my face, I have some BIG news
-              for my guys out there! <br />
-              Okay here we go...
+              My name is Shelsey
+              <span style={{ fontWeight: "400", fontSize: "18px" }}>
+                {" "}
+                (shell-sea){" "}
+              </span>
+              a barber who cruises around in a 69’ VW bug gratefully on her way
+              to meet your expectations!
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              I’m excited to let you know my passion has pushed me into going
-              out on my own fully!
+              I’ve been working with a male-only clientele for over 5 years
+              honing and sharpening (pun intended) my skills overtime. I want to
+              welcome you into the man cave suite I call my workspace with a
+              little something for every guy out there!
               <br />
               <br />
-              I’m opening my own luxury barbershop suite newly constructed in
-              Loveland starting the first week of August! I can’t wait for you
-              fellas to see and experience what I’ve dreamed of for us for a
-              while! I’ll be thrilled to welcome you into my new creative space
-              where I can continue to offer you the same quality cuts you desire
-              and deserve and leave the shop feeling more empowered and fresh.
+              Specializing in men’s haircutting and shaving my desire is to
+              deliver detailed and consistent work time after time. It all
+              starts with a thorough consultation, followed by a meticulously
+              efficient cutting process paired with a few jokes and barbershop
+              banter. Then to top it off, a lather neck shave and shoulder
+              massage resulting in what I think you’ll find a valuable and
+              intentional service.
               <br />
-              <br /> As always I will continue my strict cleaning rituals and
-              provide a space that makes you feel comfortable and at ease.
-              Expect also for manly vibes and decor you may not know how to
-              handle. Thank you for all your support throughout these years I
-              can’t believe this is happening but when your gut speaks to you,
-              you listen. I’ll be sharing more information about the shop
-              throughout the day and week. So stay tuned! If you have any
-              questions please let me know! Be well! I’ll see you soon!
+              <br /> I want you to enter my barbershop with confidence that I
+              can help provide whatever look you’re going for. From razor fades
+              to fuller cuts, I’m your gal and I’ve got you covered. Desire some
+              man-pampering? How about a shampoo with scalp massage after or
+              before your cut? Or a hot towel and lather straight razor shave.
+              Maybe a beard trim? I want to provide you timeless traditional
+              services with my own unique and modern touch. But, no there won’t
+              be any dentistry or bloodletting in my suite, not that kind of
+              traditional! All jokes aside, I want you to go on with your day
+              feeling both refreshed and handsome!
+              <br />
+              <br />
+              Let me know what it is you’re needing! Looking forward to meeting
+              you!
             </Typography>
           </CardContent>
         </CardActionArea>
