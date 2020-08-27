@@ -66,7 +66,7 @@ export default function Services() {
         <Card className={classes.root}>
           <CardActionArea>
             <Typography gutterBottom variant="h6" component="h6">
-              Other Styles to consider (be unique)
+              Other Styles to Consider (Be Unique)
             </Typography>
             <Grid image={Unique} />
             <CardContent>
