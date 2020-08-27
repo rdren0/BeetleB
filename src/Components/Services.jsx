@@ -37,7 +37,7 @@ export default function Services() {
         <Card className={classes.root}>
           <CardActionArea>
             <Typography gutterBottom variant="h6" component="h6">
-              Haircuts
+              Regular Haircuts
             </Typography>
             <Grid image={Cut} />
             <CardContent>
