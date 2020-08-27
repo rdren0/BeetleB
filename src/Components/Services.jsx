@@ -4,26 +4,27 @@ import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
-import Cut from "../Images/cut.jpg";
-import Razor from "../Images/services.jpg";
-import Shampoo from "../Images/shampoo.jpg";
+import Cut from "../Images/standard.png";
+import Fades from "../Images/Fades.png";
+import Shave from "../Images/Shave.png";
+import Unique from "../Images/Unique.png";
 import Footer from "./Footer";
+import Grid from "./Grid";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
-    minWidth: 345,
+    maxWidth: 500,
+    // minWidth: 345,
     margin: "5px",
-    height: "350px",
+    // height: "550px",
   },
   container: {
     display: "flex",
     flexFlow: "row wrap",
     justifyContent: "center",
-    padding: "7vh",
+    padding: "3vh",
   },
 });
 
@@ -31,63 +32,61 @@ export default function Services() {
   const classes = useStyles();
 
   return (
-    <div className={classes.what}>
-      <h1>Services:</h1>
+    <div>
       <div className={classes.container}>
         <Card className={classes.root}>
           <CardActionArea>
-            <CardMedia
-              component="img"
-              alt="Haircuts"
-              height="240"
-              image={Cut}
-              title="Haircuts"
-            />
+            <Typography gutterBottom variant="h6" component="h6">
+              Haircuts
+            </Typography>
+            <Grid image={Cut} />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Haircuts
-              </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Standard, buzz, skin, razor fades and designs
+                Ages 8 & up. Side lengths from #OA (or 1/2) to scissor cut on
+                sides. Scissor cutting on top length.
               </Typography>
             </CardContent>
           </CardActionArea>
         </Card>
         <Card className={classes.root}>
           <CardActionArea>
-            <CardMedia
-              component="img"
-              alt="Shaves"
-              height="240"
-              image={Razor}
-              title="Shaves"
-            />
+            <Typography gutterBottom variant="h6" component="h6">
+              Skin Fades and Razor Fades
+            </Typography>
+            <Grid image={Fades} />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Shaves
-              </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Full and Partial
+                Skin fade- #OOO on sides and clipper or scissor cut on top.
+                Razor fade- Choose between electric shaver or straight razor on
+                sides and clipper or scissor cut on top.
               </Typography>
             </CardContent>
           </CardActionArea>
         </Card>
         <Card className={classes.root}>
           <CardActionArea>
-            <CardMedia
-              component="img"
-              alt="Shampoo"
-              height="240"
-              marginTop="200"
-              image={Shampoo}
-              title="Shampoo"
-            />
+            <Typography gutterBottom variant="h6" component="h6">
+              Other Styles to consider (be unique)
+            </Typography>
+            <Grid image={Unique} />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Shampoo
-              </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                A la carte
+                Flat-tops, Mullets, Mohawks, Designs, Buzz etc.
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        <Card className={classes.root}>
+          <CardActionArea>
+            <Typography gutterBottom variant="h6" component="h6">
+              Shaves
+            </Typography>
+            <Grid image={Shave} />
+            <CardContent>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Full Shave- Not a hair left in sight. Partial Shave- If you wish
+                to keep a beard, goatee, or other facial hair and need the neck
+                and cheeks shaved clean.
               </Typography>
             </CardContent>
           </CardActionArea>
