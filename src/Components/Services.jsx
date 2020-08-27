@@ -6,7 +6,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 
-import Cut from "../Images/standard.png";
+import Cut from "../Images/Cuts.png";
 import Fades from "../Images/Fades.png";
 import Shave from "../Images/Shave.png";
 import Unique from "../Images/Unique.png";
