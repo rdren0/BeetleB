@@ -47,68 +47,78 @@ const useStyles = makeStyles({
     marginTop: "2vh",
     textAlign: "center",
   },
+  covid: {
+    fontSize: "20px",
+    margin: "8px",
+  },
 });
 
 export default function Book() {
   const classes = useStyles();
 
   return (
-    <div className={classes.container}>
-      <Card>
-        <CardContent>
-          <Card className={classes.root}>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Book Online:
-              </Typography>
-              <Button
-                color="default"
-                className={classes.icons}
-                startIcon={
-                  <TouchAppIcon style={{ height: "100px", width: "100px" }} />
-                }
-                href="https://square.site/book/AEAPGYZE9KXJG/shelsey-sybrandts-loveland-co"
-              />
-            </CardContent>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Text:
-              </Typography>
-              <Button
-                color="default"
-                className={classes.icons}
-                startIcon={
-                  <PhoneAndroidIcon
-                    style={{ height: "100px", width: "100px" }}
-                  />
-                }
-                href="sms:19702352073;?&body=Hello%20Shelsey!%20I%20would%20like%20to%20book%20an%20appointment%20for%20-%20"
-              />
-            </CardContent>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Call:
-              </Typography>
-              <Button
-                color="default"
-                className={classes.icons}
-                startIcon={
-                  <CallIcon style={{ height: "100px", width: "100px" }} />
-                }
-                href="tel:+19702352073"
-              />
-            </CardContent>
-          </Card>
-          <CardMedia
-            component="img"
-            alt="Blue VW Beetle"
-            image={Call}
-            title="Blue VW Beetle"
-            className={classes.image}
-          />
-        </CardContent>
-      </Card>
-      <Footer />
+    <div>
+      <h5 className={classes.covid}>
+        Due to COVID-19 guidelines, visits are by appointment only at this time.
+      </h5>
+
+      <div className={classes.container}>
+        <Card>
+          <CardContent>
+            <Card className={classes.root}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Book Online:
+                </Typography>
+                <Button
+                  color="default"
+                  className={classes.icons}
+                  startIcon={
+                    <TouchAppIcon style={{ height: "100px", width: "100px" }} />
+                  }
+                  href="https://square.site/book/AEAPGYZE9KXJG/shelsey-sybrandts-loveland-co"
+                />
+              </CardContent>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Text:
+                </Typography>
+                <Button
+                  color="default"
+                  className={classes.icons}
+                  startIcon={
+                    <PhoneAndroidIcon
+                      style={{ height: "100px", width: "100px" }}
+                    />
+                  }
+                  href="sms:19702352073;?&body=Hello%20Shelsey!%20I%20would%20like%20to%20book%20an%20appointment%20for%20-%20"
+                />
+              </CardContent>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Call:
+                </Typography>
+                <Button
+                  color="default"
+                  className={classes.icons}
+                  startIcon={
+                    <CallIcon style={{ height: "100px", width: "100px" }} />
+                  }
+                  href="tel:+19702352073"
+                />
+              </CardContent>
+            </Card>
+            <CardMedia
+              component="img"
+              alt="Blue VW Beetle"
+              image={Call}
+              title="Blue VW Beetle"
+              className={classes.image}
+            />
+          </CardContent>
+        </Card>
+        <Footer />
+      </div>
     </div>
   );
 }
