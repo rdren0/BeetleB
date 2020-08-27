@@ -20,13 +20,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function SpacingGrid({ image }) {
-  const [spacing, setSpacing] = React.useState(2);
   const classes = useStyles();
 
   return (
     <Grid container className={classes.root} spacing={2}>
       <Grid item xs={12}>
-        <Grid container justify="center" spacing={spacing}>
+        <Grid container justify="center" spacing={2}>
           <Grid key={image}>
             <CardMedia
               component="img"
