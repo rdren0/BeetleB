@@ -49,6 +49,27 @@ export default function Contact() {
 
   return (
     <div>
+      <Card className={classes.shear}>
+        <Typography
+          variant="h6"
+          component="h6"
+          style={{
+            margin: 5,
+          }}
+        >
+          Located inside of <br /> The Suites at Shear NV Salon
+        </Typography>
+        <CardMedia
+          component="img"
+          alt="Car In Front of Building"
+          image={Bug}
+          title="Car In Front of Building"
+          style={{
+            margin: "auto",
+          }}
+        />
+        <CardContent></CardContent>
+      </Card>
       <div className={classes.container}>
         <Card className={classes.root}>
           <CardActionArea>
@@ -75,28 +96,6 @@ export default function Contact() {
         </Card>
         <Hours />
       </div>
-
-      <Card className={classes.shear}>
-        <Typography
-          variant="h6"
-          component="h6"
-          style={{
-            margin: 5,
-          }}
-        >
-          Located inside of <br /> The Suites at Shear NV Salon
-        </Typography>
-        <CardMedia
-          component="img"
-          alt="Car In Front of Building"
-          image={Bug}
-          title="Car In Front of Building"
-          style={{
-            margin: "auto",
-          }}
-        />
-        <CardContent></CardContent>
-      </Card>
 
       <div className={classes.iconsContainer}>
         <Button
