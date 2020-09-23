@@ -35,6 +35,13 @@ const useStyles = makeStyles({
   iconsContainer: {
     marginTop: "20px",
   },
+  shear: {
+    maxWidth: 400,
+    padding: 15,
+    marginTop: "15px",
+    margin: "auto",
+    boxShadow: "none",
+  },
 });
 
 export default function Contact() {
@@ -68,24 +75,31 @@ export default function Contact() {
         </Card>
         <Hours />
       </div>
-      <h3
-        style={{
-          marginTop: 10,
-        }}
-      >
-        Located inside of The Suites at Shear NV Salon
-      </h3>
-      <CardMedia
-        component="img"
-        alt="Car In Front of Building"
-        image={Bug}
-        title="Car In Front of Building"
-        style={{
-          height: "25%",
-          width: "25%",
-          margin: "auto",
-        }}
-      />
+
+      <Card className={classes.shear}>
+        <CardActionArea>
+          <Typography
+            variant="h6"
+            component="h6"
+            style={{
+              margin: 5,
+            }}
+          >
+            Located inside of <br /> The Suites at Shear NV Salon
+          </Typography>
+          <CardMedia
+            component="img"
+            alt="Car In Front of Building"
+            image={Bug}
+            title="Car In Front of Building"
+            style={{
+              margin: "auto",
+            }}
+          />
+          <CardContent></CardContent>
+        </CardActionArea>
+      </Card>
+
       <div className={classes.iconsContainer}>
         <Button
           color="default"
