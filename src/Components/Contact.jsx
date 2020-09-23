@@ -7,8 +7,11 @@ import Hours from "./Hours";
 
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
+import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+
+import Bug from "../Images/ShearNVBug.jpg";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Footer from "./Footer";
@@ -65,6 +68,24 @@ export default function Contact() {
         </Card>
         <Hours />
       </div>
+      <h3
+        style={{
+          marginTop: 10,
+        }}
+      >
+        Located inside of The Suites at Shear NV Salon
+      </h3>
+      <CardMedia
+        component="img"
+        alt="Car In Front of Building"
+        image={Bug}
+        title="Car In Front of Building"
+        style={{
+          height: "25%",
+          width: "25%",
+          margin: "auto",
+        }}
+      />
       <div className={classes.iconsContainer}>
         <Button
           color="default"
@@ -93,6 +114,7 @@ export default function Contact() {
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         />
       </div>
+
       <Footer />
     </div>
   );
