@@ -8,7 +8,7 @@ import Contact from "./Components/Contact";
 import Book from "./Components/Book";
 import Nav from "./Components/Nav";
 
-import Beetle from "./Images/BeetleBarber.svg";
+import Beetle from "./Images/BeetleBarber.jpg";
 
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
