@@ -23,9 +23,10 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles((theme) => ({
   logo: {
-    height: "13vh",
-    width: "35vw",
-    margin: "-10px",
+    height: "8vh",
+    width: "10vw",
+    minWidth: "150px",
+    margin: "3px",
   },
 }));
 
