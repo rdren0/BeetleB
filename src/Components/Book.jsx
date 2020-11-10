@@ -1,17 +1,13 @@
 import React from "react";
-import Call from "../Images/bookings.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 
 import Card from "@material-ui/core/Card";
 import Button from "@material-ui/core/Button";
 
 import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
-import CallIcon from "@material-ui/icons/Call";
 import TouchAppIcon from "@material-ui/icons/TouchApp";
-import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import Footer from "./Footer";
 
 const useStyles = makeStyles({
@@ -26,6 +22,8 @@ const useStyles = makeStyles({
     display: "flex",
     flexFlow: "row wrap",
     justifyContent: "center",
+    margin: "30px 30px 30px 30px",
+    padding: "15px",
   },
   button: {
     backgroundColor: "#212121",
@@ -40,16 +38,9 @@ const useStyles = makeStyles({
     textDecoration: "none",
     ":&hover": { background: "#2C3E50" },
   },
-  phone: {
-    width: "80vw",
-    fontSize: "1em",
-    marginLeft: "10vw",
-    marginTop: "2vh",
-    textAlign: "center",
-  },
   covid: {
     fontSize: "20px",
-    margin: "8px",
+    margin: "15px",
   },
 });
 
@@ -63,57 +54,18 @@ export default function Book() {
       </h5>
 
       <div className={classes.container}>
-        <Card>
+        <Card className={classes.root}>
           <CardContent>
-            <Card className={classes.root}>
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Book Online:
-                </Typography>
-                <Button
-                  color="default"
-                  className={classes.icons}
-                  startIcon={
-                    <TouchAppIcon style={{ height: "100px", width: "100px" }} />
-                  }
-                  href="https://square.site/book/AEAPGYZE9KXJG/shelsey-sybrandts-loveland-co"
-                />
-              </CardContent>
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Text:
-                </Typography>
-                <Button
-                  color="default"
-                  className={classes.icons}
-                  startIcon={
-                    <PhoneAndroidIcon
-                      style={{ height: "100px", width: "100px" }}
-                    />
-                  }
-                  href="sms:19702352073;?&body=Hello%20Shelsey!%20I%20would%20like%20to%20book%20an%20appointment%20for%20-%20"
-                />
-              </CardContent>
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Call:
-                </Typography>
-                <Button
-                  color="default"
-                  className={classes.icons}
-                  startIcon={
-                    <CallIcon style={{ height: "100px", width: "100px" }} />
-                  }
-                  href="tel:+19702352073"
-                />
-              </CardContent>
-            </Card>
-            <CardMedia
-              component="img"
-              alt="Blue VW Beetle"
-              image={Call}
-              title="Blue VW Beetle"
-              className={classes.image}
+            <Typography gutterBottom variant="h5" component="h2">
+              Book Online:
+            </Typography>
+            <Button
+              color="default"
+              className={classes.icons}
+              startIcon={
+                <TouchAppIcon style={{ height: "100px", width: "100px" }} />
+              }
+              href="https://square.site/book/AEAPGYZE9KXJG/shelsey-sybrandts-loveland-co"
             />
           </CardContent>
         </Card>
