@@ -13,7 +13,6 @@ import Designs from "../Images/Designs.png"
 import Unique from "../Images/Unique.png";
 import Footer from "./Footer";
 import Grid from "./Grid";
-import { CardMembership } from "@material-ui/icons";
 
 const useStyles = makeStyles({
   root: {
