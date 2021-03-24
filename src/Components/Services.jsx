@@ -14,6 +14,7 @@ import Designs from "../Images/Designs.png"
 import Unique from "../Images/Unique.png";
 import Footer from "./Footer";
 import Grid from "./Grid";
+import { CardMembership } from "@material-ui/icons";
 
 const useStyles = makeStyles({
   root: {
@@ -33,82 +34,32 @@ const useStyles = makeStyles({
 export default function Services() {
   const classes = useStyles();
 
+  const items = [
+    {title: 'Regular Haircuts', imageSrc: Cut, description: 'Ages 8 & up. Side lengths from #OA (or 1/2) to scissor cut on sides. Scissor cutting on top length.'},
+    {title: ' Skin Fades and Razor Fades', imageSrc: Fades, description: ' Skin fade- #OOO on sides and clipper or scissor cut on top. Razor fade- Choose between electric shaver or straight razor on sides and clipper or scissor cut on top.'},
+    {title: 'Other Styles to Consider (Be Unique)', imageSrc: Unique, description: 'Flat-tops, Mullets, Mohawks, Buzz etc.'},
+    {title: 'Designs', imageSrc: Designs, description: 'Custom Designs'},
+    {title: 'Beards', imageSrc: Beards, description: 'Beard trims and shaping'},
+    {title: 'Shaves', imageSrc: Shave, description: 'Full Shave- Not a hair left in sight. Partial Shave- If you wish to keep a beard, goatee, or other facial hair and need the neck and cheeks shaved clean.'},
+    // {title: '', imageSrc: '', description: ''},
+  ]
+
+  const cards = items.map(item => <Card className={classes.root}>
+    <Typography gutterBottom variant="h6" component="h6">
+      {item.title}
+    </Typography>
+    <Grid image={item.imageSrc} />
+    <CardContent>
+      <Typography variant="body2" color="textSecondary" component="p">
+        {item.description}
+      </Typography>
+    </CardContent>
+</Card> )
+
   return (
     <div>
       <div className={classes.container}>
-        <Card className={classes.root}>
-            <Typography gutterBottom variant="h6" component="h6">
-              Regular Haircuts
-            </Typography>
-            <Grid image={Cut} />
-            <CardContent>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Ages 8 & up. Side lengths from #OA (or 1/2) to scissor cut on
-                sides. Scissor cutting on top length.
-              </Typography>
-            </CardContent>
-        </Card>
-        <Card className={classes.root}>
-            <Typography gutterBottom variant="h6" component="h6">
-            Skin Fades and Razor Fades
-            </Typography>
-            <Grid image={Fades} />
-            <CardContent>
-              <Typography variant="body2" color="textSecondary" component="p">
-              Skin fade- #OOO on sides and clipper or scissor cut on top.
-                Razor fade- Choose between electric shaver or straight razor on
-                sides and clipper or scissor cut on top.
-              </Typography>
-            </CardContent>
-        </Card>
-        <Card className={classes.root}>
-            <Typography gutterBottom variant="h6" component="h6">
-            Other Styles to Consider (Be Unique)
-            </Typography>
-            <Grid image={Unique} />
-            <CardContent>
-              <Typography variant="body2" color="textSecondary" component="p">
-              Flat-tops, Mullets, Mohawks, Buzz etc.
-              </Typography>
-            </CardContent>
-        </Card>
-        <Card className={classes.root}>
-            <Typography gutterBottom variant="h6" component="h6">
-              Designs
-            </Typography>
-            <Grid image={Designs} />
-            <CardContent>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Custom Designs
-              </Typography>
-            </CardContent>
-        </Card>
-        <Card className={classes.root}>
-            <Typography gutterBottom variant="h6" component="h6">
-              Beard
-            </Typography>
-            <Grid image={Beards} />
-            <CardContent>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Beard trims and shaping
-              </Typography>
-            </CardContent>
-        </Card>
-
-
-        <Card className={classes.root}>
-            <Typography gutterBottom variant="h6" component="h6">
-              Shaves
-            </Typography>
-            <Grid image={Shave} />
-            <CardContent>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Full Shave- Not a hair left in sight. Partial Shave- If you wish
-                to keep a beard, goatee, or other facial hair and need the neck
-                and cheeks shaved clean.
-              </Typography>
-            </CardContent>
-        </Card>
+      {cards}
       </div>
       <Footer />
     </div>
