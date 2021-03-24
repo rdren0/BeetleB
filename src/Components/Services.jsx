@@ -9,6 +9,8 @@ import Typography from "@material-ui/core/Typography";
 import Cut from "../Images/Cuts.png";
 import Fades from "../Images/Fades.png";
 import Shave from "../Images/Shave.png";
+import Beards from "../Images/Beards.png";
+import Designs from "../Images/Designs.png"
 import Unique from "../Images/Unique.png";
 import Footer from "./Footer";
 import Grid from "./Grid";
@@ -35,7 +37,6 @@ export default function Services() {
     <div>
       <div className={classes.container}>
         <Card className={classes.root}>
-          <CardActionArea>
             <Typography gutterBottom variant="h6" component="h6">
               Regular Haircuts
             </Typography>
@@ -46,38 +47,56 @@ export default function Services() {
                 sides. Scissor cutting on top length.
               </Typography>
             </CardContent>
-          </CardActionArea>
         </Card>
         <Card className={classes.root}>
-          <CardActionArea>
             <Typography gutterBottom variant="h6" component="h6">
-              Skin Fades and Razor Fades
+            Skin Fades and Razor Fades
             </Typography>
             <Grid image={Fades} />
             <CardContent>
               <Typography variant="body2" color="textSecondary" component="p">
-                Skin fade- #OOO on sides and clipper or scissor cut on top.
+              Skin fade- #OOO on sides and clipper or scissor cut on top.
                 Razor fade- Choose between electric shaver or straight razor on
                 sides and clipper or scissor cut on top.
               </Typography>
             </CardContent>
-          </CardActionArea>
         </Card>
         <Card className={classes.root}>
-          <CardActionArea>
             <Typography gutterBottom variant="h6" component="h6">
-              Other Styles to Consider (Be Unique)
+            Other Styles to Consider (Be Unique)
             </Typography>
             <Grid image={Unique} />
             <CardContent>
               <Typography variant="body2" color="textSecondary" component="p">
-                Flat-tops, Mullets, Mohawks, Designs, Buzz etc.
+              Flat-tops, Mullets, Mohawks, Buzz etc.
               </Typography>
             </CardContent>
-          </CardActionArea>
         </Card>
         <Card className={classes.root}>
-          <CardActionArea>
+            <Typography gutterBottom variant="h6" component="h6">
+              Designs
+            </Typography>
+            <Grid image={Designs} />
+            <CardContent>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Custom Designs
+              </Typography>
+            </CardContent>
+        </Card>
+        <Card className={classes.root}>
+            <Typography gutterBottom variant="h6" component="h6">
+              Beard
+            </Typography>
+            <Grid image={Beards} />
+            <CardContent>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Beard trims and shaping
+              </Typography>
+            </CardContent>
+        </Card>
+
+
+        <Card className={classes.root}>
             <Typography gutterBottom variant="h6" component="h6">
               Shaves
             </Typography>
@@ -89,7 +108,6 @@ export default function Services() {
                 and cheeks shaved clean.
               </Typography>
             </CardContent>
-          </CardActionArea>
         </Card>
       </div>
       <Footer />
