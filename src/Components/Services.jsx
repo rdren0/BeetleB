@@ -35,7 +35,7 @@ export default function Services() {
 
   const items = [
     {title: 'Regular Haircuts', imageSrc: Cut, description: 'Ages 8 & up. Side lengths from #OA (or 1/2) to scissor cut on sides. Scissor cutting on top length.'},
-    {title: ' Skin Fades and Razor Fades', imageSrc: Fades, description: ' Skin fade- #OOO on sides and clipper or scissor cut on top. Razor fade- Choose between electric shaver or straight razor on sides and clipper or scissor cut on top.'},
+    {title: 'Skin Fades and Razor Fades', imageSrc: Fades, description: ' Skin fade- #OOO on sides and clipper or scissor cut on top. Razor fade- Choose between electric shaver or straight razor on sides and clipper or scissor cut on top.'},
     {title: 'Other Styles to Consider (Be Unique)', imageSrc: Unique, description: 'Flat-tops, Mullets, Mohawks, Buzz etc.'},
     {title: 'Designs', imageSrc: Designs, description: 'Custom Designs'},
     {title: 'Beards', imageSrc: Beards, description: 'Beard trims and shaping'},
