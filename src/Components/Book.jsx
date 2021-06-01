@@ -50,7 +50,7 @@ export default function Book() {
   return (
     <div>
       <h5 className={classes.covid}>
-        Visits are by appointment only at this time.
+        Visits are by appointment only.
       </h5>
 
       <div className={classes.container}>
