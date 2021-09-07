@@ -31,7 +31,7 @@ export default function PinnedSubheaderList() {
     "Wednesday: 9am-6pm",
     "Thursday: 10am-8pm",
     "Friday: 9am-6pm",
-    "Saturday: Every Other Saturday 9am-1pm ",
+    "Every Other Saturday: 9am-1pm ",
   ];
 
   return (
