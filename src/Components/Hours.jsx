@@ -27,11 +27,11 @@ export default function PinnedSubheaderList() {
   const hours = [
     "Sunday: Closed",
     "Monday: Closed",
-    "Tuesday: 12pm-8pm",
-    "Wednesday: 9am-5pm",
-    "Thursday: 9am-5pm",
-    "Friday: 9am-5pm",
-    "Saturday: 9am-2pm",
+    "Tuesday: 10am-8pm",
+    "Wednesday: 9am-6pm",
+    "Thursday: 10am-8pm",
+    "Friday: 9am-6pm",
+    "Saturday: Every Other Saturday 9am-1pm ",
   ];
 
   return (
