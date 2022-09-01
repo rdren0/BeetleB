@@ -56,7 +56,7 @@ const Home = () => {
               to meet your expectations!
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              I’ve been working with a male-only clientele for over 5 years
+              I’ve been working with a male-only clientele for over 7 years
               honing and sharpening (pun intended) my skills overtime. I want to
               welcome you into the man cave suite I call my workspace with a
               little something for every guy out there!
