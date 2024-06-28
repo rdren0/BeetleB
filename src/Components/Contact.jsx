@@ -3,7 +3,6 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import Button from "@material-ui/core/Button";
 import SentimentSatisfiedIcon from "@material-ui/icons/SentimentSatisfied";
-import Hours from "./Hours";
 
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -94,7 +93,6 @@ export default function Contact() {
             </CardContent>
           </CardActionArea>
         </Card>
-        <Hours />
       </div>
 
       <div className={classes.iconsContainer}>
