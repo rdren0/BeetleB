@@ -57,10 +57,13 @@ const Home = () => {
             <Typography variant="body2" color="textSecondary" component="p">
               My husband and co-owner  Ken and I want to welcome you into The Sweetest Barber Suite in the Sweetheart City! 
               <br /> 
+               <br /> 
               Offering a service fit for every white collar, blue collar to tie dyed collar! Specializing in men’s haircutting and shaving Beetle Barber’s desire is to deliver detailed and consistent work time after time. 
               <br />
+               <br /> 
               It all starts with a thorough consultation, followed by a meticulously efficient cutting process paired with a few jokes and barbershop banter. Resulting in what we think you’ll find a valuable and intentional service. 
               <br />
+               <br /> 
               Loveland, we are grateful to have you and your loved ones in our chair. 
             </Typography>
           </CardContent>
