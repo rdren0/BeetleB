@@ -52,38 +52,16 @@ const Home = () => {
                 {" "}
                 (shell-sea){" "}
               </span>
-              a barber who cruises around in a 69’ VW bug gratefully on her way
-              to meet your expectations!
+              a barber who cruises around in a 69’ VW bug gratefully on her way to meet Loveland’s  grooming expectations for nearly a decade.
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              I’ve been working with a male-only clientele for over 7 years
-              honing and sharpening (pun intended) my skills overtime. I want to
-              welcome you into the man cave suite I call my workspace with a
-              little something for every guy out there!
+              My husband and co-owner  Ken and I want to welcome you into The Sweetest Barber Suite in the Sweetheart City! 
+              <br /> 
+              Offering a service fit for every white collar, blue collar to tie dyed collar! Specializing in men’s haircutting and shaving Beetle Barber’s desire is to deliver detailed and consistent work time after time. 
               <br />
+              It all starts with a thorough consultation, followed by a meticulously efficient cutting process paired with a few jokes and barbershop banter. Resulting in what we think you’ll find a valuable and intentional service. 
               <br />
-              Specializing in men’s haircutting and shaving my desire is to
-              deliver detailed and consistent work time after time. It all
-              starts with a thorough consultation, followed by a meticulously
-              efficient cutting process paired with a few jokes and barbershop
-              banter. Then to top it off, a lather neck shave and shoulder
-              massage resulting in what I think you’ll find a valuable and
-              intentional service.
-              <br />
-              <br /> I want you to enter my barbershop with confidence that I
-              can help provide whatever look you’re going for. From razor fades
-              to fuller cuts, I’m your gal and I’ve got you covered. Desire some
-              man-pampering? How about a shampoo with scalp massage after or
-              before your cut? Or a hot towel and lather straight razor shave.
-              Maybe a beard trim? I want to provide you timeless traditional
-              services with my own unique and modern touch. But, no there won’t
-              be any dentistry or bloodletting in my suite, not that kind of
-              traditional! All jokes aside, I want you to go on with your day
-              feeling both refreshed and handsome!
-              <br />
-              <br />
-              Let me know what it is you’re needing! Looking forward to meeting
-              you!
+              Loveland, we are grateful to have you and your loved ones in our chair. 
             </Typography>
           </CardContent>
         </CardActionArea>
