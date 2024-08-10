@@ -1,6 +1,6 @@
 import React from "react";
 
-import Main from "../Images/ShelsSide.jpg";
+import Main from "../Images/IMG_20240809_175552.jpg";
 
 import Paper from "@material-ui/core/Paper";
 
