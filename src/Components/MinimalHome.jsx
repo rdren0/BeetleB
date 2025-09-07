@@ -1,7 +1,7 @@
 import React from "react";
 import "./MinimalHome.css";
 import MainImage from "../Images/IMG_20240809_175552.jpg";
-import ShelsSide from "../Images/ShelsSide.jpg";
+import Suite from "../Images/suite.jpg";
 
 const MinimalHome = () => {
   const services = [
@@ -80,7 +80,7 @@ const MinimalHome = () => {
             </div>
 
             <div className="services-image">
-              <img src={ShelsSide} alt="Shelsey at work" />
+              <img src={Suite} alt="Shelsey at work" />
             </div>
           </div>
 
