@@ -39,7 +39,14 @@ const MinimalHome = () => {
       <section className="about-section">
         <div className="container">
           <div className="about-content">
-            <h2>Welcome</h2>
+            <div className="established-badge">EST. 2020</div>
+            <h2>The Sweetest Barber Suite in the Sweetheart City</h2>
+            <p className="services-tagline">HAIRCUTS • BEARDS • SHAVES</p>
+            <p className="groovy-text">
+              Offering the grooviest grooming services for Loveland's finest and
+              fuzziest fellas! You deserve the Beetle Barber experience.
+            </p>
+            <div className="divider"></div>
             <p className="lead">
               My name is Shelsey{" "}
               <span className="pronunciation">(shell-sea)</span>, a barber who
