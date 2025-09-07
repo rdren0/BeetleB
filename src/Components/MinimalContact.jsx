@@ -42,7 +42,7 @@ const MinimalContact = () => {
                 <p>
                   <strong>By Appointment Only</strong>
                   <br />
-                  Book online or call to schedule
+                  Book online
                   <br />
                   Walk-ins not available
                 </p>

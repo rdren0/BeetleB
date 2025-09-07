@@ -1,0 +1,146 @@
+.minimal-services {
+  min-height: calc(100vh - 200px);
+  background: white;
+}
+
+/* Hero Section */
+.services-hero {
+  background: #f5f5f5;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.services-hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Services Grid Section */
+.services-grid-section {
+  padding: 80px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin-bottom: 80px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-card {
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.service-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.service-content {
+  padding: 0;
+}
+
+.service-content h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.service-content p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #555;
+  text-align: center;
+}
+
+/* CTA Section */
+.services-cta {
+  text-align: center;
+  padding: 60px 0;
+  border-top: 1px solid #eee;
+}
+
+.cta-text {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 14px 40px;
+  border: 2px solid #000;
+  background: #000;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background: white;
+  color: #000;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .services-grid-section {
+    padding: 60px 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+
+  .service-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .services-cta {
+    padding: 40px 0;
+  }
+}
