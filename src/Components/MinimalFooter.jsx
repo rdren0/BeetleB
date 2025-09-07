@@ -8,7 +8,7 @@ const MinimalFooter = () => {
         <div className="footer-content">
           <div className="footer-section">
             <h3>BEETLE BARBER</h3>
-            <p>Classic Cuts • Modern Style</p>
+            <p>The Sweetest Barber Suite in the Sweetheart City</p>
           </div>
 
           <div className="footer-section">

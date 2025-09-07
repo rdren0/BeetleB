@@ -30,7 +30,7 @@ const MinimalHome = () => {
           <div className="hero-overlay">
             <h1>BEETLE BARBER</h1>
             <p className="hero-tagline">
-              Classic Cuts • Modern Style • Loveland
+              The Sweetest Barber Suite in the Sweetheart City
             </p>
           </div>
         </div>
