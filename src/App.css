@@ -1,14 +1,17 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 .App {
-  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
-  height: 100vh;
+  flex: 1;
 }
 
 .coming-Soon {
