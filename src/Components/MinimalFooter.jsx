@@ -14,7 +14,7 @@ const MinimalFooter = () => {
           <div className="footer-section">
             <h4>Location</h4>
             <p>
-              1461 E Eisenhower Blvd Suite #106
+              1461 E Eisenhower Blvd Suite #111
               <br />
               Loveland, CO 80537
             </p>

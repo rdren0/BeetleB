@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <div className={classes.footer}>
       <h5>Beetle Barber INC</h5>
-      <h6> 1461 E Eisenhower Blvd Suite #106, Loveland, CO 80537</h6>
+      <h6> 1461 E Eisenhower Blvd Suite #111, Loveland, CO 80537</h6>
     </div>
   );
 }

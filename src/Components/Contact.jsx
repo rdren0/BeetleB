@@ -87,7 +87,7 @@ export default function Contact() {
             <CardContent>
               <Typography variant="body1" color="textSecondary" component="p">
                 <a href="https://goo.gl/maps/tCXUsJVuJ9zb85tNA">
-                  1461 E Eisenhower Blvd Suite 106 Loveland, Colorado 80537
+                  1461 E Eisenhower Blvd Suite 111 Loveland, Colorado 80537
                 </a>
               </Typography>
             </CardContent>

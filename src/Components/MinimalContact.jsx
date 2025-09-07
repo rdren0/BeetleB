@@ -23,7 +23,7 @@ const MinimalContact = () => {
                 <p>
                   Located inside The Suites at Shear NV Salon
                   <br />
-                  1461 E Eisenhower Blvd Suite #106
+                  1461 E Eisenhower Blvd Suite #111
                   <br />
                   Loveland, CO 80537
                 </p>
