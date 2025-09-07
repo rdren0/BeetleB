@@ -27,12 +27,6 @@ const MinimalHome = () => {
             alt="Beetle Barber Shop"
             className="hero-image"
           />
-          <div className="hero-overlay">
-            <h1>BEETLE BARBER</h1>
-            <p className="hero-tagline">
-              The Sweetest Barber Suite in the Sweetheart City
-            </p>
-          </div>
         </div>
       </section>
 
