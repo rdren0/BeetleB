@@ -37,14 +37,14 @@
   font-weight: bold;
   letter-spacing: 4px;
   margin-bottom: 10px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .hero-tagline {
   font-size: 1.2rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 /* About Section */
@@ -67,6 +67,7 @@
   letter-spacing: 2px;
   font-size: 0.9rem;
   margin-bottom: 20px;
+  border-radius: 8px;
 }
 
 .about-content h2 {
@@ -172,7 +173,7 @@
   width: 100%;
   height: 400px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .services-image img {
@@ -197,6 +198,7 @@
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  border-radius: 8px;
   transition: all 0.3s;
 }
 
@@ -260,11 +262,13 @@
   letter-spacing: 1px;
 }
 
-.address, .appointment-info {
+.address,
+.appointment-info {
   margin-bottom: 30px;
 }
 
-.address p, .appointment-info p {
+.address p,
+.appointment-info p {
   line-height: 1.8;
   color: #333;
 }
@@ -273,7 +277,7 @@
   width: 100%;
   height: 400px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .location-image img {

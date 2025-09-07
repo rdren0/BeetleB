@@ -13,6 +13,7 @@ const MinimalFooter = () => {
 
           <div className="footer-section">
             <h4>Location</h4>
+            <p> Inside The Suites at Shear NV Salon</p> <br />
             <p>
               1461 E Eisenhower Blvd Suite #111
               <br />
