@@ -25,7 +25,6 @@ const MinimalFooter = () => {
             <p>
               By Appointment Only
               <br />
-              Book online or call
             </p>
           </div>
         </div>
