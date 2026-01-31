@@ -45,7 +45,7 @@ const MinimalHome = () => {
               My name is Shelsey{" "}
               <span className="pronunciation">(shell-sea)</span>, a barber who
               cruises around in a 69' VW bug gratefully on her way to meet
-              Loveland's grooming expectations for nearly a decade.
+              Loveland's grooming expectations for over a decade.
             </p>
             <p>
               My husband and co-owner Ken and I want to welcome you into The
