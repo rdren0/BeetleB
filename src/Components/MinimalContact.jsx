@@ -21,7 +21,7 @@ const MinimalContact = () => {
               <div className="info-block">
                 <h3>Location</h3>
                 <p>
-                  Located inside The Suites at Shear NV Salon
+                  Located inside My Salon Suite
                   <br />
                   1461 E Eisenhower Blvd Suite #111
                   <br />
